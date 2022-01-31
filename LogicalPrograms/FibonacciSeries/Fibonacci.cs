@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace LogicalPrograms.FabonacciSeries
 {
-    public class Fabonacci
+    public class Fibonacci
     {
-        public static void FabonacciSeries()
+        public static void FibonacciSeries() 
         {
             int n1 = 0, n2 = 1, n3, i, num;
             Console.Write("\tEnter the number of Element: ");

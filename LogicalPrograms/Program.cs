@@ -15,15 +15,15 @@ namespace LogicalPrograms
                 try
                 {
                     Console.WriteLine("Choose any option");
-                    Console.WriteLine("\t1. Fabonacci Seriea");
+                    Console.WriteLine("\t1. Fibonacci Seriea");
                     Console.WriteLine("\t2. Exit");
                     Console.Write("Enter Choice: ");
                     int choice = Convert.ToInt32(Console.ReadLine());
                     switch (choice)
                     {
                         case 1:
-                            Console.WriteLine("\n\t========== 1. Fabonacci Series==========");
-                            Fabonacci.FabonacciSeries(); //Call the method
+                            Console.WriteLine("\n\t========== 1. Fibonacci Series==========");
+                            Fibonacci.FibonacciSeries(); //Call the method 
                             break;
                         case 2:
                         default:

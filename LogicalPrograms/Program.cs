@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using LogicalPrograms.FibonacciSeries; 
+using LogicalPrograms.FibonacciSeries;
+using LogicalPrograms.PerfectNumber;
 using System;
 namespace LogicalPrograms
 {
@@ -16,7 +17,8 @@ namespace LogicalPrograms
                 {
                     Console.WriteLine("Choose any option");
                     Console.WriteLine("\t1. Fibonacci Seriea");
-                    Console.WriteLine("\t2. Exit");
+                    Console.WriteLine("\t2. Perfect Number");
+                    Console.WriteLine("\t3. Exit");
                     Console.Write("Enter Choice: ");
                     int choice = Convert.ToInt32(Console.ReadLine());
                     switch (choice)
@@ -26,6 +28,10 @@ namespace LogicalPrograms
                             Fibonacci.FibonacciSeries(); //Call the method 
                             break;
                         case 2:
+                            Console.WriteLine("\n\t==========2. Perfect Number=============");
+                            Perfect.PerfectNumber();
+                            break;
+                        case 3:
                         default:
                             flag = false;
                             break;

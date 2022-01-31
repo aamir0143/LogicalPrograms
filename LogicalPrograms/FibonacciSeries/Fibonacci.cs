@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogicalPrograms.FabonacciSeries
+namespace LogicalPrograms.FibonacciSeries 
 {
     public class Fibonacci
     {

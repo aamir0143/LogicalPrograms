@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using LogicalPrograms.FabonacciSeries;
+using LogicalPrograms.FibonacciSeries; 
 using System;
 namespace LogicalPrograms
 {

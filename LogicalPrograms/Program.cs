@@ -2,6 +2,7 @@
 using LogicalPrograms.FibonacciSeries;
 using LogicalPrograms.PerfectNumber;
 using LogicalPrograms.PrimeNumbers;
+using LogicalPrograms.ReverseNumber;
 using System;
 namespace LogicalPrograms
 {
@@ -20,7 +21,8 @@ namespace LogicalPrograms
                     Console.WriteLine("\t1. Fibonacci Seriea");
                     Console.WriteLine("\t2. Perfect Number");
                     Console.WriteLine("\t3. Prime Numbers");
-                    Console.WriteLine("\t4. Exit");
+                    Console.WriteLine("\t4. Reverse Number");
+                    Console.WriteLine("\t5. Exit");
                     Console.Write("Enter Choice: ");
                     int choice = Convert.ToInt32(Console.ReadLine());
                     switch (choice)
@@ -38,6 +40,10 @@ namespace LogicalPrograms
                             Prime.PrimeNumbers();
                             break;
                         case 4:
+                            Console.WriteLine("\n\t==========4. Reverse Number==============");
+                            Reverse.ReverseNumber();
+                            break;
+                        case 5:
                         default:
                             flag = false;
                             break;
